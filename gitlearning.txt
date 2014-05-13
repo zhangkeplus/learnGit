@@ -1,7 +1,6 @@
+mZgit init    /创建仓库
 
-git init    /创建仓库
-
-git add     /把文件添加到仓库
+git add     /把要提交的所有修改放到暂存区，然后git commit 就可以一次性把暂存区的所有修改提交到分支
 
 git commit -m/把文件提交到仓库
  
