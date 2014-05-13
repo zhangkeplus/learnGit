@@ -1,0 +1,17 @@
+
+git init    /创建仓库
+
+git add     /把文件添加到仓库
+
+git commit -m/把文件提交到仓库
+ 
+git status  /仓库当前状态
+
+git diff
+
+git log     /查看提交历史
+git log --pretty=oneline
+
+git reset --hard HEAD^  /HEAD^^  HEAD~100 /回退
+
+git reflog  /查看命令历史
