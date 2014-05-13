@@ -14,3 +14,12 @@ git log --pretty=oneline
 git reset --hard HEAD^  /HEAD^^  HEAD~100 /回退
 
 git reflog  /查看命令历史
+
+git checkout -- file /丢弃工作区的修改
+
+git rm file    /从版本库中删除文件
+
+git remote add origin https://github.com/zhangkeplus/learnGit.git /与远程关联
+
+git push -u origin master /把本地库的所有内容推送到远程库
+git push origin master
